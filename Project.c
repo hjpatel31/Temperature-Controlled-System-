@@ -1,6 +1,5 @@
 /*
-Program: HSI255 Project 
-Author: HELI JITENDRAKUMAR PATEL
+Author: HELI PATEL
 Date: November 27, 2023
 Purpose: This program initially begins with LEDs off and servo motor in the default position. First user will be prompt to enter a thresold tempertaure in degree Celsius. Then again ask the user for which exit strategy they would like to use, option 1 is ask the user how many seconds they want the program to run, and the program will run for that long. And option 2 is after how many servo motor activations the program will end after the threshold temperature has been activated. The program will monitor the temperature continuously. If temperature is above the threshold, the red LED will be lit , and when the temperature drops below the threshold, the red LED turns off and the blue LED turns on and the servo motor turns approximately 45 degrees and alert the user of low temperature. When the temperature goes back above the threshold, the red LED turns back on, the blue LED turns off and the servo motor returns to its default position. The console window updates the temperature 5 times per second regardless of the actual temperature.
 */
@@ -156,4 +155,4 @@ int main()
         system("pause");
         Close();
         return 0;
-    }
+    }
